@@ -66,7 +66,9 @@ h2, h5 {
     text-align: center;
     margin: 20px 20px 20px 20px;
 }
-
+h3 {
+    text-align: center;
+}
 .section {
     padding-right: 10px;
     text-align: left;
@@ -127,11 +129,12 @@ footer, header {
     color: rgb(85, 73, 2);
 }
 
-.caption {
+caption{
     width: 100%;
     color: black;
     text-decoration: underline;
-    float: left;
+    margin-left: auto;
+    display:inline-block;
 }
 
 .good {
@@ -178,7 +181,3 @@ q {
     text-align: right;
 }
 
-.bottom {
-    caption-side: bottom;
-    color: rgba(236, 205, 6, 0.6);
-}
