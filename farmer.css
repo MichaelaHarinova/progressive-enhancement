@@ -1,0 +1,153 @@
+tr,td {
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    opacity:0.6;
+}
+tr:first-child{
+    font-weight: bold;
+}
+table{
+    width: 58%;
+    background-color: rgba(255, 255, 255, 0.3);
+    color:black;
+    margin:auto;
+}
+body{
+    background: url("jpg/landscape.jpg") no-repeat bottom right;
+    background-size: cover;
+    max-width:90%;
+    margin:auto;
+    font-family:"Audiowide", sans-serif;
+}
+.img2{
+    width:200px;
+    height: 380px;
+    float:left;
+    margin-right: 20px;
+    padding-top: 20px;
+    z-index: -1;
+    position: relative;
+}
+.img1{
+    width:220px;
+    height:130px;
+    padding:5px 5px 5px 5px;
+}
+figure{
+    float:left;
+}
+figcaption{
+    font-size:10px;
+}
+.article{
+    position:absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    padding-right: 10px;
+    text-align: left;
+    margin: 80px;
+
+}
+h2, h5 {
+    padding-right: 20px;
+    text-align:center;
+    margin: 20px 20px 20px 20px;
+}
+.section {
+    padding-right: 10px;
+    text-align: left;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin:auto;
+}
+h6{
+    text-align: right;
+    font-size: 10px;
+    padding-right: 10px;
+}
+blockquote{
+    width:50%;
+    background-color: rgba(121, 119, 119, 0.3);
+    padding: 50px 20px 20px 20px;
+    text-align: left;
+    position: center;
+    margin: 80px 260px 80px 240px;
+}
+figure{
+    float:right;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 20%;
+    position: relative;
+    margin:auto;
+}
+.links {;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: block;
+    margin-top: 200px;
+    width: 20%;
+}
+
+a:link{
+    color:black;
+}
+a:visited {
+    color: #e5c8a5;
+}
+a:hover {
+    color:darkgreen;
+}
+footer, header{
+    text-align: center;
+    height:50px;
+}
+.color{
+    color:rgb(85, 73, 2);
+}
+.caption{
+    width: 100%;
+    color:black;
+    text-decoration: underline;
+    float:left;
+}
+.good{
+    color: #7bf07b;
+}
+.bad{
+    color: #a00707;
+}
+.farmer{
+    border-left-color: white;
+
+}
+.villagers{
+    border-left-color: deeppink;
+}
+
+p{
+    font-family: Serif, serif;
+    color: rgb(85, 73, 2);
+    letter-spacing: 2px;
+}
+q {
+    display: block;
+    font-size: 160%;
+    background-color: rgba(125, 123, 123, 0.3);
+    border-left: 3px dashed  ;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+#header:first-child{
+    background-color: rgba(236, 205, 6, 0.6);
+}
+.textflow{
+    margin-left: 10px;
+    text-align: right;
+}
