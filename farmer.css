@@ -1,50 +1,58 @@
-tr,td {
+tr, td {
     text-align: center;
     padding: 10px;
 }
 
 tr:nth-child(even) {
     background-color: #f2f2f2;
-    opacity:0.6;
+    opacity: 0.6;
 }
-tr:first-child{
+
+tr:first-child {
     font-weight: bold;
 }
-table{
+
+table {
     width: 58%;
     background-color: rgba(255, 255, 255, 0.3);
-    color:black;
-    margin:auto;
+    color: black;
+    margin: auto;
 }
-body{
+
+body {
     background: url("jpg/landscape.jpg") no-repeat bottom right;
     background-size: cover;
-    max-width:90%;
-    margin:auto;
-    font-family:"Audiowide", sans-serif;
+    max-width: 90%;
+    margin: auto;
+    font-family: "Audiowide", sans-serif;
 }
-.img2{
-    width:200px;
+
+.img2 {
+    width: 200px;
     height: 380px;
-    float:left;
+    float: left;
     margin-right: 20px;
     padding-top: 20px;
     z-index: -1;
     position: relative;
 }
-.img1{
-    width:220px;
-    height:130px;
-    padding:5px 5px 5px 5px;
+
+.img1 {
+    width: 220px;
+    height: 130px;
+    padding: 5px 5px 5px 5px;
 }
-figure{
-    float:left;
+
+figure {
+    float: left;
 }
-figcaption{
-    font-size:10px;
+
+figcaption {
+    font-size: 10px;
 }
-.article{
-    position:absolute;
+
+.article {
+    position: absolute;
     background-color: rgba(255, 255, 255, 0.6);
     font-size: 12px;
     padding-right: 10px;
@@ -52,38 +60,44 @@ figcaption{
     margin: 80px;
 
 }
+
 h2, h5 {
     padding-right: 20px;
-    text-align:center;
+    text-align: center;
     margin: 20px 20px 20px 20px;
 }
+
 .section {
     padding-right: 10px;
     text-align: left;
     width: 80%;
     background-color: rgba(255, 255, 255, 0.6);
-    margin:auto;
+    margin: auto;
 }
-h6{
+
+h6 {
     text-align: right;
     font-size: 10px;
     padding-right: 10px;
 }
-blockquote{
-    width:45%;
+
+blockquote {
+    width: 45%;
     background-color: rgba(121, 119, 119, 0.3);
     padding: 50px 20px 20px 20px;
     text-align: left;
     margin: 80px 0 80px 300px;
-    display:block;
+    display: block;
 }
-figure{
-    float:right;
+
+figure {
+    float: right;
     background-color: rgba(255, 255, 255, 0.3);
     width: 20%;
     position: relative;
-    margin:auto;
+    margin: auto;
 }
+
 .links {;
     float: left;
     background-color: rgba(255, 255, 255, 0.3);
@@ -92,65 +106,79 @@ figure{
     width: 20%;
 }
 
-a:link{
-    color:black;
+a:link {
+    color: black;
 }
+
 a:visited {
     color: #e5c8a5;
 }
+
 a:hover {
-    color:darkgreen;
+    color: darkgreen;
 }
-footer, header{
+
+footer, header {
     text-align: center;
-    height:50px;
+    height: 50px;
 }
-.color{
-    color:rgb(85, 73, 2);
+
+.color {
+    color: rgb(85, 73, 2);
 }
-.caption{
+
+.caption {
     width: 100%;
-    color:black;
+    color: black;
     text-decoration: underline;
-    float:left;
+    float: left;
 }
-.good{
+
+.good {
     color: #7bf07b;
 }
-.bad{
+
+.bad {
     color: #a00707;
 }
-.farmer{
+
+.farmer {
     border-left-color: white;
 
 }
-.villagers{
+
+.villagers {
     border-left-color: deeppink;
 }
 
-p{
+p {
     font-family: Serif, serif;
     color: rgb(85, 73, 2);
     letter-spacing: 2px;
 }
+
 q {
     display: block;
     font-size: 160%;
     background-color: rgba(125, 123, 123, 0.3);
-    border-left: 3px dashed  ;
+    border-left: 3px dashed;
     padding-left: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
     font-style: italic;
     text-transform: capitalize;
 }
-#header:first-child{
+
+#header:first-child {
     background-color: rgba(236, 205, 6, 0.6);
 }
-.textflow{
+
+.textflow {
     margin-left: 10px;
     text-align: right;
-}.bottom{
-    caption-side:  bottom;
+}
+
+.bottom {
+    caption-side: bottom;
     color: rgba(236, 205, 6, 0.6);
- }
+}
